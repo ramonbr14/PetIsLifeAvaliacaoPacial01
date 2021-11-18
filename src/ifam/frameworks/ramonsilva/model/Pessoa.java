@@ -1,9 +1,6 @@
 package ifam.frameworks.ramonsilva.model;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Enumerated;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.time.LocalDateTime;
 
 @Entity
@@ -17,20 +14,20 @@ public class Pessoa {
     private String telefone;
     private String endereco;
     private String email;
-    @Column(nullable = false)
+    @ManyToOne
     private Cidade cidade;
     @Enumerated
     private SexoPessoaENUM sexo;
     @Enumerated
     private PessoaENUM tipo;
-    @Column(nullable = false)
+    @Column(nullable = true)
     private LocalDateTime nascimento;
 
     public Pessoa() {
     }
 
-    public Pessoa(String documento, String nome, String telefone, String endereco, String email,
-                  Cidade cidade, SexoPessoaENUM sexo, PessoaENUM tipo) {
+    public Pessoa(String documento, String nome, String telefone, String endereco, String email, Cidade cidade, ifam.frameworks.ramonsilva.model.SexoPessoaENUM sexo,
+                  ifam.frameworks.ramonsilva.model.PessoaENUM tipo, LocalDateTime nascimento) {
         this.documento = documento;
         this.nome = nome;
         this.telefone = telefone;
@@ -39,6 +36,8 @@ public class Pessoa {
         this.cidade = cidade;
         this.sexo = sexo;
         this.tipo = tipo;
+        this.nascimento = nascimento;
+
     }
 
     public String getDocumento() {
@@ -89,34 +88,28 @@ public class Pessoa {
         this.cidade = cidade;
     }
 
-    public SexoPessoaENUM getSexo() {
+    public ifam.frameworks.ramonsilva.model.SexoPessoaENUM getSexo() {
         return sexo;
     }
 
-    public void setSexo(SexoPessoaENUM sexo) {
+    public void setSexo(ifam.frameworks.ramonsilva.model.SexoPessoaENUM sexo) {
         this.sexo = sexo;
     }
 
-    public PessoaENUM getTipo() {
+    public ifam.frameworks.ramonsilva.model.PessoaENUM getTipo() {
         return tipo;
     }
 
-    public void setTipo(PessoaENUM tipo) {
+    public void setTipo(ifam.frameworks.ramonsilva.model.PessoaENUM tipo) {
         this.tipo = tipo;
     }
 
-    @Override
-    public String toString() {
-        return "Pessoa{" +
-                "documento='" + documento + '\'' +
-                ", nome='" + nome + '\'' +
-                ", telefone='" + telefone + '\'' +
-                ", endereco='" + endereco + '\'' +
-                ", email='" + email + '\'' +
-                ", cidade=" + cidade +
-                ", sexo=" + sexo +
-                ", tipo=" + tipo +
-                '}';
+    public LocalDateTime getNascimento() {
+        return nascimento;
+    }
+
+    public void setNascimento(LocalDateTime nascimento) {
+        this.nascimento = nascimento;
     }
 }
 

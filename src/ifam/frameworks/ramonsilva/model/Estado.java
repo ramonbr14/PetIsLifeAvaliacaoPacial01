@@ -1,10 +1,6 @@
 package ifam.frameworks.ramonsilva.model;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.*;
 
 @Entity
 public class Estado {
@@ -15,7 +11,7 @@ public class Estado {
     private String codigoIBGE;
     @Column(nullable = false)
     private String nome;
-    @Column(nullable = false)
+    @ManyToOne
     private Pais pais;
 
     public Estado() {

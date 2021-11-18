@@ -1,9 +1,6 @@
 package ifam.frameworks.ramonsilva.model;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 public class Cidade {
@@ -15,7 +12,7 @@ public class Cidade {
     private String codigoIBGE;
     @Column(nullable = false)
     private String nome;
-    @Column(nullable = false)
+    @ManyToOne
     private  Estado estado;
 
     public Cidade() {

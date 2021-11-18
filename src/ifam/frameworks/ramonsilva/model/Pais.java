@@ -4,7 +4,6 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-import java.beans.ConstructorProperties;
 
 @Entity
 public class Pais {
@@ -46,14 +45,5 @@ public class Pais {
 
     public void setCodidoISO(String codidoISO) {
         this.codidoISO = codidoISO;
-    }
-
-    @Override
-    public String toString() {
-        return "Pais{" +
-                "id=" + id +
-                ", nome='" + nome + '\'' +
-                ", codidoISO='" + codidoISO + '\'' +
-                '}';
     }
 }

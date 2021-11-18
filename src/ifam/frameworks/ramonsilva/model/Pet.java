@@ -14,9 +14,9 @@ public class Pet {
     private LocalDateTime nascimento;
     @Enumerated
     private SexoPetENUM sexo;
-    @Column(nullable = false)
+    @ManyToOne
     private Raca raca;
-    @Column(nullable = false)
+    @ManyToOne
     private Pessoa proprietario;
 
     public Pet() {

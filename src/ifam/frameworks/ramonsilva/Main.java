@@ -1,16 +1,20 @@
 package ifam.frameworks.ramonsilva;
 
 import ifam.frameworks.ramonsilva.model.*;
-import ifam.frameworks.ramonsilva.util.JPAUtil;
 
 import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
 import javax.swing.*;
+import java.time.LocalDateTime;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        EntityManager em = JPAUtil.getEntityManager();
+        EntityManagerFactory factory = Persistence.createEntityManagerFactory("JPA1");
+        EntityManager em = factory.createEntityManager();
+
 
         //Criando Objetos
         //Pais
@@ -61,6 +65,7 @@ public class Main {
         pessoa1.setCidade(cidade4);
         pessoa1.setEmail("elsadearendelle@arendelle.com");
         pessoa1.setTelefone("9999-8888");
+        pessoa1.setNascimento(LocalDateTime.of(1822,12,22,0,1));
         pessoa1.setSexo(SexoPessoaENUM.MASCULINO);
         pessoa1.setTipo(PessoaENUM.PROPRIETARIO);
 
@@ -68,7 +73,6 @@ public class Main {
 
 
         //Persistencia
-
         em.getTransaction().begin();
         em.persist(pais1);
         em.persist(pais2);
@@ -82,12 +86,8 @@ public class Main {
         em.getTransaction().commit();
         em.close();
 
-
-
-
-
-
-        JOptionPane.showConfirmDialog(null,"EXECUTANDO", "JPAInforma",0,JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showConfirmDialog(null,"DEU TUDO CERTO","PetIsLife",1,JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showConfirmDialog(null,"FUNCIONOU!!!!!","POR JUSSARA",0,JOptionPane.ERROR_MESSAGE);
 
     }
 }
