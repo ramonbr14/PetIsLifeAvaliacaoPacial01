@@ -8,7 +8,7 @@ public class Pessoa {
     @Id
     @Column(unique = true,nullable = false)
     private String documento;
-    @Column(nullable = false)
+    @Column(unique = true,nullable = false)
     private String nome;
     @Column(nullable = false)
     private String telefone;

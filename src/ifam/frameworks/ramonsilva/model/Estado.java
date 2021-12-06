@@ -9,7 +9,7 @@ public class Estado {
     private Integer id;
     @Column(unique = true,nullable = false)
     private String codigoIBGE;
-    @Column(nullable = false)
+    @Column(unique = true,nullable = false)
     private String nome;
     @ManyToOne
     private Pais pais;

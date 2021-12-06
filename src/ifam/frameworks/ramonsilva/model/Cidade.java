@@ -10,7 +10,7 @@ public class Cidade {
 
     @Column(unique = true,nullable = false)
     private String codigoIBGE;
-    @Column(nullable = false)
+    @Column(unique = true,nullable = false)
     private String nome;
     @ManyToOne
     private  Estado estado;
