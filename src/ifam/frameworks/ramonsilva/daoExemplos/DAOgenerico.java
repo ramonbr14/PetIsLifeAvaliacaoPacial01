@@ -1,6 +1,5 @@
-package ifam.frameworks.ramonsilva.dao;
+package ifam.frameworks.ramonsilva.daoExemplos;
 
-import ifam.frameworks.ramonsilva.util.JPAUtil;
 
 import javax.persistence.EntityManager;
 

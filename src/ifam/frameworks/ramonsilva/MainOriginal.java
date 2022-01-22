@@ -1,19 +1,11 @@
 package ifam.frameworks.ramonsilva;
 
-import ifam.frameworks.ramonsilva.dao.EstadoDAO;
-import ifam.frameworks.ramonsilva.model.*;
-import ifam.frameworks.ramonsilva.util.JPAUtil;
-
-import javax.persistence.Entity;
-import javax.persistence.EntityManager;
 //import javax.persistence.EntityManagerFactory;
 //import javax.persistence.Persistence;
 import javax.swing.*;
-import java.time.LocalDateTime;
-import java.util.List;
 
-public class Main {
-
+public class MainOriginal extends JFrame {
+/*
     private static void inserir() {
 
         //EntityManagerFactory factory = Persistence.createEntityManagerFactory("JPA1");
@@ -285,22 +277,29 @@ public class Main {
         entityManager.close();
 
     }
-
-
+*/
+    /*
+    public Application(){ initComponents();}
+     */
     public static void main(String[] args) {
+      /*
         //inserir();
         //removerEstado();
-        //consultar();
+        //  consultar();
         //inserirComDao();
-
         //consultarComDao();
         //removerComDao();
-        listarComDao();
+        //listarComDao();
+        //java.awt.EventQueue.invokeLater(new Runnable() {
+            @Override
+            public void run() {
+                new TelaCadastrosBase().setVisible(true);
+            }
+        });
+        public void run(){
+            new TelaCadastrosBase().set
+        }
 
-
-
-
-
-
+*/
     }
 }

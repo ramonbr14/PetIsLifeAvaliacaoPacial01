@@ -1,12 +1,13 @@
-package ifam.frameworks.ramonsilva.dao;
+package ifam.frameworks.ramonsilva.daoExemplos;
 
 import ifam.frameworks.ramonsilva.model.Cidade;
-import ifam.frameworks.ramonsilva.model.Estado;
 import ifam.frameworks.ramonsilva.util.JPAUtil;
 
 import javax.persistence.EntityManager;
 import javax.persistence.Query;
 import java.util.List;
+
+
 
 public class CidadeDAO {
 

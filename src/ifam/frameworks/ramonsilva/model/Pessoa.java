@@ -2,6 +2,7 @@ package ifam.frameworks.ramonsilva.model;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Entity
 public class Pessoa {
@@ -111,5 +112,7 @@ public class Pessoa {
     public void setNascimento(LocalDateTime nascimento) {
         this.nascimento = nascimento;
     }
-}
 
+
+
+}

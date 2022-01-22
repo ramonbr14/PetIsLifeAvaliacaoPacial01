@@ -1,0 +1,2 @@
+Essas classes DAO foram criadas apenas para exemplificar
+o que o JPA faz automativamente.

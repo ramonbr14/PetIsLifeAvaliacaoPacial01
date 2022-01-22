@@ -1,4 +1,4 @@
-package ifam.frameworks.ramonsilva.dao;
+package ifam.frameworks.ramonsilva.daoExemplos;
 
 import ifam.frameworks.ramonsilva.model.Pessoa;
 import ifam.frameworks.ramonsilva.util.JPAUtil;

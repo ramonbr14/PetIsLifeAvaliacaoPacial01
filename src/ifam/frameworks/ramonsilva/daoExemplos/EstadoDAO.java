@@ -1,8 +1,6 @@
-package ifam.frameworks.ramonsilva.dao;
+package ifam.frameworks.ramonsilva.daoExemplos;
 
 import ifam.frameworks.ramonsilva.model.Estado;
-import ifam.frameworks.ramonsilva.util.JPAUtil;
-import org.dom4j.util.UserDataElement;
 
 import javax.persistence.EntityManager;
 import javax.persistence.Query;

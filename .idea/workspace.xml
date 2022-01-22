@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4b5f0507-62b9-47d6-9d01-93f7cf45741c" name="Changes" comment="Manutenção da classes Main.java e das classes de objetos.&#10;Criação das classes DAO incluindo o Dao generico.">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dlsc_formsfx_formsfx_core_11_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__eu_hansolo_tilesfx_11_48.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_synedra_validatorfx_0_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_controlsfx_controlsfx_11_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_kordamp_bootstrapfx_bootstrapfx_core_0_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_kordamp_ikonli_ikonli_core_12_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_kordamp_ikonli_ikonli_javafx_12_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_17_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_linux_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_linux_17_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_17_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_linux_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_linux_17_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_17_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_linux_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_linux_17_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_17_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_linux_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_linux_17_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_media_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_media_linux_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_web_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_web_linux_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PetIsLifeDesktop/PetIsLifeDesktop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PetIsLifeDesktop/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PetIsLifeDesktop/src/main/java/ifam/frameworks/ramonsilva/petislifedesktop/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PetIsLifeDesktop/src/main/java/ifam/frameworks/ramonsilva/petislifedesktop/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PetIsLifeDesktop/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PetIsLifeDesktop/src/main/resources/ifam/frameworks/ramonsilva/petislifedesktop/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/com/example/demo/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ifam/frameworks/ramonsilva/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ifam/frameworks/ramonsilva/dao/InserirJPA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ifam/frameworks/ramonsilva/daoExemplos/Nota.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PetIsLifeAvaliacaoPacial01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PetIsLifeAvaliacaoPacial01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ifam/frameworks/ramonsilva/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ifam/frameworks/ramonsilva/MainOriginal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ifam/frameworks/ramonsilva/dao/CidadeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ifam/frameworks/ramonsilva/daoExemplos/CidadeDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ifam/frameworks/ramonsilva/dao/DAOgenerico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ifam/frameworks/ramonsilva/daoExemplos/DAOgenerico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ifam/frameworks/ramonsilva/dao/EstadoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ifam/frameworks/ramonsilva/daoExemplos/EstadoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ifam/frameworks/ramonsilva/dao/PaisDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ifam/frameworks/ramonsilva/daoExemplos/PaisDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ifam/frameworks/ramonsilva/dao/PessoaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ifam/frameworks/ramonsilva/daoExemplos/PessoaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ifam/frameworks/ramonsilva/model/Pais.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ifam/frameworks/ramonsilva/model/Pais.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ifam/frameworks/ramonsilva/model/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ifam/frameworks/ramonsilva/model/Pessoa.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Kotlin Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/ifam/frameworks/ramonsilva/model/Pessoa.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="214lTrq0s74PrsRIgiOMF2LvB5C" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="17" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../UrnaEletronicaRamon" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ifam.frameworks.ramonsilva.model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ifam/frameworks/ramonsilva/view" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ifam.frameworks.ramonsilva" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.HelloApplication">
+    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ifam.frameworks.ramonsilva.petislifedesktop.HelloApplication" />
+      <module name="PetIsLifeDesktop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ifam.frameworks.ramonsilva.petislifedesktop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/corretto-16.0.2" />
+      <option name="MAIN_CLASS_NAME" value="ifam.frameworks.ramonsilva.Application" />
+      <module name="PetIsLifeAvaliacaoPacial01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b5f0507-62b9-47d6-9d01-93f7cf45741c" name="Changes" comment="" />
+      <created>1637208250315</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637208250315</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Trabalhada a classe Main, Corrigido uns erros de Mapeamento, e trocado o projeto de local por causa do nivel de acesso root no linux ubuntu20.04">
+      <created>1637221252557</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1637221252557</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Manutenção da classes Main.java e das classes de objetos.&#10;Criação das classes DAO incluindo o Dao generico.">
+      <created>1638767953969</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1638767953969</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Trabalhada a classe Main, Corrigido uns erros de Mapeamento, e trocado o projeto de local por causa do nivel de acesso root no linux ubuntu20.04" />
+    <MESSAGE value="Manutenção da classes Main.java e das classes de objetos.&#10;Criação das classes DAO incluindo o Dao generico." />
+    <option name="LAST_COMMIT_MESSAGE" value="Manutenção da classes Main.java e das classes de objetos.&#10;Criação das classes DAO incluindo o Dao generico." />
+  </component>
+</project>
