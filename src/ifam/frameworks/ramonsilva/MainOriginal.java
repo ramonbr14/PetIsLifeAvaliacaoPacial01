@@ -4,7 +4,7 @@ package ifam.frameworks.ramonsilva;
 //import javax.persistence.Persistence;
 import javax.swing.*;
 
-public class MainOriginal extends JFrame {
+public class MainOriginal {
 /*
     private static void inserir() {
 

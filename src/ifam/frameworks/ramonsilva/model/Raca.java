@@ -1,9 +1,6 @@
 package ifam.frameworks.ramonsilva.model;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 public class Raca {
@@ -12,12 +9,15 @@ public class Raca {
     private Integer id;
     @Column(nullable = false)
     private String nome;
+    @ManyToOne
+    private Especie especie;
 
     public Raca() {
     }
 
-    public Raca(String nome) {
+    public Raca(String nome, Especie especie) {
         this.nome = nome;
+        this.especie = especie;
     }
 
     public Integer getId() {
@@ -34,6 +34,14 @@ public class Raca {
 
     public void setNome(String nome) {
         this.nome = nome;
+    }
+
+    public Especie getEspecie() {
+        return especie;
+    }
+
+    public void setEspecie(Especie especie) {
+        this.especie = especie;
     }
 
     @Override
