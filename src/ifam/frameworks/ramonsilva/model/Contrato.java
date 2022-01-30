@@ -1,10 +1,5 @@
 package ifam.frameworks.ramonsilva.model;
 
-import javax.persistence.*;
-import java.time.LocalDateTime;
-import java.util.ArrayList;
-import java.util.List;
-
 //@Entity(name="contrato")
 public class Contrato {
 /*

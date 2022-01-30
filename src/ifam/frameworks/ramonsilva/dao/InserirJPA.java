@@ -1,9 +1,9 @@
 package ifam.frameworks.ramonsilva.dao;
 
 
-
-import ifam.frameworks.ramonsilva.util.JPAUtil;
 import ifam.frameworks.ramonsilva.model.*;
+import ifam.frameworks.ramonsilva.util.JPAUtil;
+
 import javax.persistence.EntityManager;
 import java.time.LocalDateTime;
 

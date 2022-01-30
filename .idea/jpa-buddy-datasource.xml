@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpbDataSourceConfig">
+    <data-sources>
+      <data-source id="06132939-d08b-4dc8-9a0c-37f0c5f26649" name="PetIsLifeAvaliacaoPacial01" url="jdbc:mysql://localhost/PetIsLifeAvaliacaoPacial01?useSSL=false&amp;allowMultiQueries=true&amp;serverTimezone=UTC" driverClass="com.mysql.cj.jdbc.Driver" />
+    </data-sources>
+  </component>
+</project>

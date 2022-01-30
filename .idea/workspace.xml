@@ -5,49 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b5f0507-62b9-47d6-9d01-93f7cf45741c" name="Changes" comment="Criados os metodos em InserirJPA&#10;Modificado a classe principal para executar o menu&#10;Aplicação não esta mais compílando.">
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PetIsLifeAvaliacaoPacial01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PetIsLifeAvaliacaoPacial01.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_dlsc_formsfx_formsfx_core_11_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__eu_hansolo_tilesfx_11_48.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_synedra_validatorfx_0_1_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_controlsfx_controlsfx_11_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_kordamp_bootstrapfx_bootstrapfx_core_0_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_kordamp_ikonli_ikonli_core_12_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_kordamp_ikonli_ikonli_javafx_12_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_11_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_linux_11_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_11_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_linux_11_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_11_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_linux_11_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_11_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_media_11_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_media_linux_11_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_web_11_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_web_linux_11_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_17_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_linux_17_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_17_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_linux_17_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_17_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_linux_17_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_17_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_linux_11_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_linux_17_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/required.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/required.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PetIsLifeDesktop/PetIsLifeDesktop.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PetIsLifeDesktop/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PetIsLifeDesktop/src/main/java/ifam/frameworks/ramonsilva/petislifedesktop/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PetIsLifeDesktop/src/main/java/ifam/frameworks/ramonsilva/petislifedesktop/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PetIsLifeDesktop/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PetIsLifeDesktop/src/main/resources/ifam/frameworks/ramonsilva/petislifedesktop/hello-view.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/demo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/resources/com/example/demo/hello-view.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ifam/frameworks/ramonsilva/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ifam/frameworks/ramonsilva/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ifam/frameworks/ramonsilva/MainOriginal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ifam/frameworks/ramonsilva/MainOriginal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ifam/frameworks/ramonsilva/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ifam/frameworks/ramonsilva/an.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ifam/frameworks/ramonsilva/MainOriginal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ifam/frameworks/ramonsilva/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ifam/frameworks/ramonsilva/dao/InserirJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ifam/frameworks/ramonsilva/dao/InserirJPA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ifam/frameworks/ramonsilva/model/Raca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ifam/frameworks/ramonsilva/model/Raca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ifam/frameworks/ramonsilva/model/Contrato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ifam/frameworks/ramonsilva/model/Contrato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ifam/frameworks/ramonsilva/model/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ifam/frameworks/ramonsilva/model/Pessoa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -76,7 +67,7 @@
       <map>
         <entry key="com.haulmont.jpb.jpaInspector" value="false" />
         <entry key="com.haulmont.jpb.jpaPalette" value="false" />
-        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
   </component>
@@ -88,6 +79,11 @@
       <MavenGeneralSettings>
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="17 (2)" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="214lTrq0s74PrsRIgiOMF2LvB5C" />
@@ -102,11 +98,12 @@
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="17" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../UrnaEletronicaRamon" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/out2" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -119,10 +116,16 @@
       <recent name="ifam.frameworks.ramonsilva" />
     </key>
   </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="results" />
+    </option>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/corretto-16.0.2" />
-      <option name="MAIN_CLASS_NAME" value="ifam.frameworks.ramonsilva.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" value="/usr/lib/jvm/java-1.11.0-openjdk-amd64" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ifam.frameworks.ramonsilva.Main" />
       <module name="PetIsLifeAvaliacaoPacial01" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -159,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642839886866</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Criados os metodos em InserirJPA&#10;Modificado a classe principal para executar o menu&#10;Aplicação não esta mais compílando.">
+      <created>1642906049326</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1642906049326</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,5 +189,9 @@
     <MESSAGE value="Criação de um novo DAO Usando o JPA apenas para gerar os metodos Inserir, listar e remover de todas as classes" />
     <MESSAGE value="Criados os metodos em InserirJPA&#10;Modificado a classe principal para executar o menu&#10;Aplicação não esta mais compílando." />
     <option name="LAST_COMMIT_MESSAGE" value="Criados os metodos em InserirJPA&#10;Modificado a classe principal para executar o menu&#10;Aplicação não esta mais compílando." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -1,11 +1,11 @@
 package ifam.frameworks.ramonsilva;
-
+/*
 
 import java.util.Scanner;
 
 import static ifam.frameworks.ramonsilva.dao.InserirJPA.inserirPais;
 
-public class Application {
+public class an {
 
     public static void main(String[] args) {
         execucaoOpcao();
@@ -15,19 +15,19 @@ public class Application {
     }
 
     public static void chamadaCadastro(int n){
-     switch (n){
-         case 0: System.out.println("Finalizado!");
-         case 1: entradaPais();
-         case 2: System.out.println("Finalizado!");
-         case 3: System.out.println("Finalizado!");
-         case 4: System.out.println("Finalizado!");
-         case 5: System.out.println("Finalizado!");
-         case 6: System.out.println("Finalizado!");
-         case 7: System.out.println("Finalizado!");
-         case 8: System.out.println("Finalizado!");
-         case 9: System.out.println("Finalizado!");
+        switch (n){
+            case 0: System.out.println("Finalizado!");
+            case 1: entradaPais();
+            case 2: System.out.println("Finalizado!");
+            case 3: System.out.println("Finalizado!");
+            case 4: System.out.println("Finalizado!");
+            case 5: System.out.println("Finalizado!");
+            case 6: System.out.println("Finalizado!");
+            case 7: System.out.println("Finalizado!");
+            case 8: System.out.println("Finalizado!");
+            case 9: System.out.println("Finalizado!");
 
-     }
+        }
     }
     public static void execucaoOpcao(){
         System.out.println("SEJA BEM VINDO AO PetIsLife/n");
@@ -54,4 +54,4 @@ public class Application {
         }
 
     }
-}
+}*/
